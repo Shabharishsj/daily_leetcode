@@ -11,7 +11,7 @@ class Solution:
 
         return False
 
-# TC: O(N^2), SC:O(1)
+# TC: O(N^2) | SC: O(1)
 
 
 ######################################
@@ -27,7 +27,7 @@ class Solution:
         else:
             return True
 
-# TC: O(1) | SC:O(N)
+# TC: O(N) | SC: O(N)
 # Runtime: 1075 ms | Beats: 45.37%
 # Memory: 25.6 MB | Beats: 98.5%
 
@@ -46,7 +46,7 @@ class Solution:
 
         return False
 
-# TC: O(NlogN) | SC:O(1)
+# TC: O(NlogN) | SC: O(1)
 # Runtime:1234 ms | Beats: 16.39%
 # Memory:26.2 MB | Beats:27.73%
 
@@ -82,7 +82,7 @@ class Solution:
         return False
 
 
-# TC: O(N) | SC:O(N)
+# TC: O(N) | SC: O(N)
 # Runtime: 436 ms | Beats: 99.71%
 # Memory: 26 MB | Beats: 67.49%
 
