@@ -1,5 +1,6 @@
 # 1. Two Sum
 
+######################################
 # Brute Force
 
 class Solution:
@@ -20,6 +21,27 @@ class Solution:
 # Memory: 15.2 MB | Beats: 26.5%
 
 
+######################################
+# using list
+
+nums = [1, 2, 3, 4, 5]
+target = 6
+res = []
+
+for i, n in enumerate(nums):
+    diff = target - n
+    if diff in res:
+        print(i, res.index(diff))
+        break
+    res.append(n)
+    
+    
+# TC: O(N) | SC: O(N^2)  
+# Runtime: 1305 ms | Beats: 27.7%
+# Memory: 14.9 MB | Beats: 96.15%
+
+
+######################################
 # using Hashmap 
 
 class Solution:
@@ -33,8 +55,10 @@ class Solution:
                 return [i,mydict[diff]]
             mydict[n] = i
             
-            
 # TC: O(N) | SC: O(N)     
 # Runtime: 122 ms | Beats: 69.94%
 # Memory: 15 MB | Beats: 79.91%
             
+
+# NOTES:
+# Lookups in lists are O(n), lookups in dictionaries are O(1),
