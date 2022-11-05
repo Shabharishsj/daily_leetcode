@@ -35,6 +35,6 @@ class Solution:
             
             
 # TC: O(N) | SC: O(N)     
-# Runtime: 6748 ms | Beats: 9.37%
+# Runtime: 122 ms | Beats: 69.94%
 # Memory: 15 MB | Beats: 79.91%
             
