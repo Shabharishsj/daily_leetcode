@@ -16,7 +16,7 @@ class Solution:
                     return [i,j]
                 
 # TC: O(N^2) | SC: O(1)   
-# Runtime: 122 ms | Beats: 69.94%
+# Runtime:n  6748 ms | Beats: 9.37%
 # Memory: 15.2 MB | Beats: 26.5%
 
 
