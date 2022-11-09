@@ -1,7 +1,7 @@
 
 # 238. Product of Array Except Self
 
-
+##############################################
 # using prefix and suffix with extra space
 
 A = [1, 2, 3, 4, 5]
@@ -41,7 +41,7 @@ print(res)
 # Runtime: 258 ms | Beats: 86.18%
 # Memory: 22.4 MB | Beats: 18.47%
 
-
+##################################################
 # using prefix and suffix without extra space
 
 A = [1, 2, 3, 4, 5]
