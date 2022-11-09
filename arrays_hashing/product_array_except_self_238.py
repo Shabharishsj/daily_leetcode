@@ -60,3 +60,5 @@ for i in range(n-1,-1,-1):
 print(res)
 
 # TC: O(N) | SC: O(1)
+# Runtime: 555 ms | Beats: 48.19%
+# Memory: 21.4 MB | Beats: 58.91%
