@@ -38,6 +38,8 @@ print(res)
 
 
 # TC: O(N) | SC: O(N)
+# Runtime: 258 ms | Beats: 86.18%
+# Memory: 22.4 MB | Beats: 18.47%
 
 
 # using prefix and suffix without extra space
